@@ -324,6 +324,6 @@ MALTS.int <- function(data, holdout, outcome,
     MGs[[map_back(i)]] <- sort(map_back(MG))
   }
 
-  return(list(MGs = MGs, M = M, weights = weights, CATEs = CATEs,
+  return(list(MGs = MGs, Mc = Mc, Md = Md, M = M, weights = weights, CATEs = CATEs,
               convergence = fit_out$convergence))
 }
